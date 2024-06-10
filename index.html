@@ -3,698 +3,294 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VAST - Make an Impression & Drive More Downloads With VAST</title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
+  <meta name="description" content="the faster appliction for arrive to your home">
+  <title>vast</title>
+  <!-- normalize style sheet -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- fonts from google using (Poppins, Roboto) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700;900&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
+<body>
+  <!-- start header -->
+  <header>
     <div class="container">
+      <div class="logo">vast</div>
+      <div class="links">
+        <div class="toogle"><i class="fa-solid fa-bars"></i></div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#home">home</a>
+            </li>
+            <li>
+              <a href="#features">features</a>
+            </li>
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#app">app</a>
+            </li>
+            <li>
+              <a href="#blog">blog</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <button class="btn">get started</button>
+        </nav>
 
-      <a href="#" class="logo">VAST</a>
-
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list container">
-
-          <li>
-            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
-          </li>
-
-          <li>
-            <a href="#features" class="navbar-link" data-nav-link>Features</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
-
-          <li>
-            <a href="#app" class="navbar-link" data-nav-link>App</a>
-          </li>
-
-          <li>
-            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link" data-nav-link>Contact</a>
-          </li>
-
-          <li>
-            <a href="#" class="btn btn-primary">Get Started</a>
-          </li>
-
-        </ul>
-      </nav>
-
-      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
+      </div>
     </div>
   </header>
+  <!-- End header -->
+  <!-- start home sec -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="content">
+        <p class="subtitle">best app 12 day free</p>
+        <h1 class="sec-title">Make an Impression & Drive More Downloads With VAST</h1>
+        <p class="sec-text">Empower your journey with VAST Drive, your premier destination for seamless and secure cloud
+          storage solutions. Whether you're an individual, a small business, or an enterprise, we provide the tools you
+          need to store, share, and collaborate on your files effortlessly.</p>
 
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" aria-label="hero" id="home">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <p class="section-subtitle">Best Mobile App 12 day free</p>
-
-            <h1 class="h1 hero-title">Make an Impression & Drive More Downloads With VAST</h1>
-
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et
-              dolore magna
-              aliqua. Ut enim ad minim veniamquis nostrud
-            </p>
-
-            <ul class="btn-list">
-
-              <li>
-                <a href="#" class="btn-item-link" aria-label="Download from app store">
-                  <img src="./assets/images/app-store.png" width="185" height="69" alt="app store" class="img">
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="btn-item-link" aria-label="Download from play store">
-                  <img src="./assets/images/play-store.png" width="185" height="69" alt="play store" class="img">
-                </a>
-              </li>
-
-            </ul>
-
+        <div class="btns">
+          <button class="btn apple">
+            <i class="fa-brands fa-apple"></i>
+            <div>
+              <p>download on the </p>
+              <h4>App store</h4>
+            </div>
+          </button>
+          <button class="btn gplay">
+            <i class="fa-brands fa-google-play"></i>
+            <div>
+              <p>Get it on </p>
+              <h4>google play</h4>
+            </div>
+          </button>
+          </button>
+        </div>
+      </div>
+      <figure>
+        <img src="img/hero-banner.png" alt="banner of my home ">
+      </figure>
+    </div>
+  </section>
+  <!-- End home section -->
+  <!-- Start Features sec -->
+  <section id="features" class="features">
+    <div class="container">
+      <p class="subtitle">our app feature</p>
+      <h2 class="sec-title">awesome features</h2>
+      <div class="grid-box">
+        <div>
+          <i class="fa-regular fa-pen-to-square"></i>
+          <h3>easy to edit</h3>
+          <p class="sec-text"> Say goodbye to complicated interfaces. With VAST Drive, editing your documents is as simple as a few clicks.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>fully secure</h3>
+          <p class="sec-text">Your data's safety is non-negotiable. At VAST Drive, we employ state-of-the-art encryption and rigorous security protocols to ensure that your files are protected at all times. Rest easy knowing that your sensitive information is in safe hands.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-gear"></i>
+          <h3>manager user</h3>
+          <p class="sec-text">Take control of your team's access and permissions with VAST Drive's comprehensive user management features. Easily add or remove users, assign roles, and set privileges to ensure that everyone has the right level of access to your shared files.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-cube"></i>
+          <h3>free trial</h3>
+          <p class="sec-text">Experience the power of VAST Drive risk-free with our no-obligation free trial. Sign up today and enjoy all the benefits of our platform for a limited time, with no strings attached.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features sec -->
+  <!-- start about -->
+  <section id="about" class="about">
+    <div class="container">
+      <figure>
+        <img src="img/about-banner.png" alt="banner">
+      </figure>
+      <div class="content">
+        <p class="subtitle">our aquaintance</p>
+        <h2 class="sec-title">we are trusted by thousand of people</h2>
+        <p class="sec-text">At VAST Drive, our commitment to excellence has earned us the trust of thousands of individuals, businesses, and organizations worldwide. Join our community and experience the reliability, security, and innovation that sets us apart</p>
+        <div class="boxes">
+          <div class="box1">
+            <i class="fa-regular fa-folder"></i>
+            <div>
+              <h3>device quality design</h3>
+              <p>Innovative Design for Enhanced User Experience Across a Variety of Devices and Platforms</p>
+            </div>
           </div>
-
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="769" height="804" alt="hero banner" class="w-100">
-          </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="section features" id="features" aria-label="features">
-        <div class="container">
-
-          <p class="section-subtitle">Our App Feature</p>
-
-          <h2 class="h2 section-title">Awesome Features</h2>
-
-          <ul class="features-list">
-
-            <li class="features-item">
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Easy to Edit</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit cons ectetur adipiscing
-                </p>
-
-              </div>
-            </li>
-
-            <li class="features-item">
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Fully Secure</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit cons ectetur adipiscing
-                </p>
-
-              </div>
-            </li>
-
-            <li class="features-item">
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <ion-icon name="settings-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Manage User</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit cons ectetur adipiscing
-                </p>
-
-              </div>
-            </li>
-
-            <li class="features-item">
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <ion-icon name="cube-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h3 card-title">Free Trial</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit cons ectetur adipiscing
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="1262" height="1357" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">Our Acquaintance</p>
-
-            <h2 class="h2 section-title">We Are Trusted By Thousands Of People</h2>
-
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis,
-              pulvinar
-              dapibus leo. Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullam
-              corpe
-            </p>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-
-                <div class="item-icon">
-                  <ion-icon name="folder" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="h3 item-title">Device Quality Design</h3>
-
-                  <p class="item-text">
-                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit Lorem ipsum dolor sit amet, consec tetur
-                    adipiscing elit.
-                  </p>
-                </div>
-
-              </li>
-
-              <li class="about-item">
-
-                <div class="item-icon">
-                  <ion-icon name="pie-chart" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="h3 item-title">Easy to Manage Data</h3>
-
-                  <p class="item-text">
-                    Lorem ipsum dolor sit amet, consec tetur adipiscing elit Lorem ipsum dolor sit amet, consec tetur
-                    adipiscing elit.
-                  </p>
-                </div>
-
-              </li>
-
-            </ul>
-
-            <a href="#" class="btn btn-secondary">Discover More</a>
-
+          <div class="box2">
+            <i class="fa-solid fa-chart-pie"></i>
+            <div>
+              <h3>Easy to manage data</h3>
+              <p> control of your team's access and permissions with VAST Drive's comprehensive user management features. Easily add or remove users</p>
+            </div>
           </div>
-
+          <button class="btn">discover more</button>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+  <!-- End about -->
+  <!-- start App  -->
 
-
-
-
-
-      <!-- 
-        - #ABOUT 2
-      -->
-
-      <section class="section about-2" aria-label="about">
-        <div class="container">
-
-          <div class="about-content">
-
-            <p class="section-subtitle">Cool & Amazing Design</p>
-
-            <h2 class="h2 section-title">We Develop Amazing App For Startups</h2>
-
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis,
-              pulvinar
-              dapibus leo. Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullam
-              corper.
-            </p>
-
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis,
-              pulvinar
-              dapibus leo. Lorem ipsum dolor.
-            </p>
-
-            <a href="#" class="btn btn-secondary">Discover More</a>
-
-          </div>
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner-2.png" width="1146" height="1226" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
-
+  <section id="app" class="app">
+    <div class="container">
+      <div class="app-1">
+        <div class="content">
+          <p class="subtitle">cool & amazing design</p>
+          <h2>we develop amazing app for startups</h2>
+          <p class="text">Empowering Startups with Tailored Solutions: From Conceptualization to Launch, We're Your Trusted Partner in Building Exceptional Apps that Drive Success and Growth in the Competitive Market Landscape.</p>
+          <button class="btn">discover more</button>
         </div>
-      </section>
 
-
-
-
-
-      <!-- 
-        - #APP
-      -->
-
-      <section class="section app" aria-label="app" id="app">
-        <div class="container">
-
-          <figure class="app-banner">
-            <img src="./assets/images/app.png" width="449" height="608" loading="lazy" alt="app banner" class="w-100">
-          </figure>
-
-          <div class="app-content">
-
-            <p class="section-subtitle">Download Our App</p>
-
-            <h2 class="h2 section-title">Get The App For Free And Start Now</h2>
-
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis,
-              pulvinar
-              dapibus leo. Lorem ipsum dolor sit amet con Lorem ipsum dolor
-            </p>
-
-            <ul class="btn-list">
-
-              <li>
-                <a href="#" class="btn-item-link" aria-label="Download from app store">
-                  <img src="./assets/images/app-store.png" width="185" height="69" alt="app store" class="img">
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="btn-item-link" aria-label="Download from play store">
-                  <img src="./assets/images/play-store.png" width="185" height="69" alt="play store" class="img">
-                </a>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog" id="blog" aria-label="blog">
-        <div class="container">
-
-          <p class="section-subtitle">Recent Blogs</p>
-
-          <h2 class="h2 section-title">Our Tips And Latest News</h2>
-
-          <ul class="blog-list">
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 768; --height: 558;">
-                  <img src="./assets/images/blog-1.jpg" width="768" height="558" loading="lazy"
-                    alt="Build A Full Web Chat App From Our Scratch" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-05-22">May 22,2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="chatbox-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">2 Comment</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Build A Full Web Chat App From Our Scratch</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-outline">Read More</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 768; --height: 558;">
-                  <img src="./assets/images/blog-2.jpg" width="768" height="558" loading="lazy"
-                    alt="Brush Strokes Energize Trees In Paintings" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-05-22">May 22,2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="chatbox-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">2 Comment</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Brush Strokes Energize Trees In Paintings</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-outline">Read More</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 768; --height: 558;">
-                  <img src="./assets/images/blog-3.jpg" width="768" height="558" loading="lazy"
-                    alt="Insights on How to Improve Your Teaching." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="card-meta-text" datetime="2022-05-22">May 22,2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="chatbox-outline" aria-hidden="true"></ion-icon>
-
-                      <p class="card-meta-text">2 Comment</p>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Insights on How to Improve Your Teaching.</a>
-                  </h3>
-
-                  <a href="#" class="btn btn-outline">Read More</a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="section footer-top">
+        <figure>
+          <img src="img/about-banner-2.png" alt="img app">
+        </figure>
+      </div>
+    </div>
+    <div class="app-2">
       <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">VAST</a>
-
-          <p class="section-text">
-            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla utimp erdiet commodo diam libero vitae nibh
-            et jus cursus
-            id rutrum lore imperdiet ut sem vitae risus tristique posuere
-          </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-google"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
+        <figure>
+          <img src="img/app.png" alt="img app">
+        </figure>
+        <div class="content">
+          <p class="subtitle">Download our app</p>
+          <h2>Get The App For Free And Start Now</h2>
+          <p class="text">Unlock Limitless Possibilities: Download Our App for Free Today and Dive into a World of Innovation, Efficiency, and Seamless User Experience. Start Your Journey Towards Success Now</p>
+          <div class="btns">
+            <button class="btn apple">
+              <i class="fa-brands fa-apple"></i>
+              <div>
+                <p>download on the </p>
+                <h4>App store</h4>
+              </div>
+            </button>
+            <button class="btn gplay">
+              <i class="fa-brands fa-google-play"></i>
+              <div>
+                <p>Get it on </p>
+                <h4>google play</h4>
+              </div>
+            </button>
+            </button>
+          </div>
 
         </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Company</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Core Services</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Our Team</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Pricing Plan</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Useful Links</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">App Download</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">How It Works</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Get In Touch</p>
-          </li>
-
-          <li class="footer-item">
-            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-
-            <a href="tel:+12023459999" class="item-link">+12023459999</a>
-          </li>
-
-          <li class="footer-item">
-            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-
-            <a href="mailto:supportvast@gmail.com" class="item-link">supportvast@gmail.com</a>
-          </li>
-
-          <li class="footer-item">
-            <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
-
-            <address class="item-link address">
-              3004 3 rd Ln,<br>
-              Los Angeles, Calnia, 11
-            </address>
-          </li>
-
-        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End App  -->
+  <!-- start blog -->
+  <section id="blog" class="blog">
+    <div class="container ">
+      <p class="subtitle">recent blog</p>
+      <h2 class="title">our tips and lates news</h2>
+      <div class="grid-box">
+        <div>
+          <figure>
+            <img src="img/blog-1.jpg" alt="blog img1">
+          </figure>
+          <div class="inf">
+            <i class="fa-solid fa-calendar-week"></i>
+            <span>March 6,2024</span>
+            <i class="fa-regular fa-message"></i>
+            <span>3 comments</span>
+          </div>
+          <h3>Build A Full Web Chat App From Our Scratch</h3>
+          <button class="btn">Read more</button>
+        </div>
+        <div>
+          <figure>
+            <img src="img/blog-2.jpg" alt="blog img2">
+          </figure>
+          <div class="inf">
+            <i class="fa-solid fa-calendar-week"></i>
+            <span>MAY 7,2024</span>
+            <i class="fa-regular fa-message"></i>
+            <span>3 comments</span>
+          </div>
+          <h3>Brush Strokes Energize Trees In Paintings</h3>
+          <button class="btn">Read more</button>
+        </div>
+        <div>
+          <figure>
+            <img src="img/blog-3.jpg" alt="blog img3">
+          </figure>
+          <div class="inf">
+            <i class="fa-solid fa-calendar-week"></i>
+            <span>MAY 7,2024</span>
+            <i class="fa-regular fa-message"></i>
+            <span>3 comments</span>
+          </div>
+          <h3>Insights on How to Improve Your Teaching.</h3>
+          <button class="btn">Read more</button>
+        </div>
 
       </div>
     </div>
+    </div>
+  </section>
+  <!-- End blog -->
+  <!-- start footer -->
+  <footer id=" contact" class="footer">
+    <div class="container grid-box">
+      <div class="foot-1">
+        <p class="logo">vast</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate repudiandae ullam eum aspernatur,
+          reprehenderit iure facere quis iusto autem exercitationem ad architecto eius! Quae quos, non voluptates
+          aspernatur deserunt qui.</p>
+        <div class="contact">
+          <a href="https://www.linkedin.com/in/eng-mohamed-ahmed/" target="_blank"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/mohamed202029999" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="foot-2">
 
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>.
-        </p>
+        <h3>company</h3>
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#about">about</a>
+        <a href="#app">app</a>
+        <a href="#blog">blog</a>
+        <a href="#contact">contact</a>
+      </div>
+      <div class="foot-3">
+        <h3>get in touch</h3>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>+201033088054</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-envelope"></i>
+          <p>mohamed202029999@gmail.com</p>
+        </div>
 
       </div>
     </div>
-
+    <hr>
+    <p class="foot-copy">&copy;2024 All Rights Reserved by <span>Mohamed Ahemd </span></p>
   </footer>
-
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js" defer></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  End footer
 </body>
 
 </html>
